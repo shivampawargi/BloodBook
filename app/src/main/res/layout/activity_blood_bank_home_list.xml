@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context="com.example.swaraj.bloodbook.BloodBankHomeList">
+
+    <com.hitomi.cmlibrary.CircleMenu
+        android:id="@+id/circle_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/textview0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:alpha="0"
+        android:text="STOCK"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textColorLink="@android:color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textview3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:alpha="0"
+        android:text="DRIVES"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textColorLink="@android:color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="115dp"
+        android:alpha="0"
+        android:text="PENDING"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textColorLink="@android:color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textview7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="130dp"
+        android:alpha="0"
+        android:text="REQUESTS"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textColorLink="@android:color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="135dp"
+        android:layout_marginEnd="36dp"
+        android:alpha="0"
+        android:text="HISTORY OF"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textColorLink="@android:color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textview6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="120dp"
+        android:layout_marginEnd="43dp"
+        android:alpha="0"
+        android:text="REQUESTS"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textColorLink="@android:color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textview4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="135dp"
+        android:layout_marginStart="10dp"
+        android:alpha="0"
+        android:text="LIST OF DONORS"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textColorLink="@android:color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textview5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="130dp"
+        android:alpha="0"
+        android:text="VERIFY DONOR"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textColorLink="@android:color/white"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="129dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="23dp"
+        android:background="@color/colorblack"
+        android:onClick="sign_out"
+        android:text="logout"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textColorLink="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+         />
+
+</RelativeLayout>

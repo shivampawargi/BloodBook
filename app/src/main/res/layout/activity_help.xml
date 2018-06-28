@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context="com.example.swaraj.bloodbook.Help">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="587dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n\t\tHOW TO USE APP  :"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n\n* DONOR\n\n   Login into the account. Visit the blood bank.  Donate the blood.  \n\n* RECEIVER\n\n  Enter your details like blood group and location. Search your nearby blood bank. Select any blood bank as per your convinience. Receivers photo will be sent to the blood bank. Receive the blood (Make sure you have your form filled up given by doctor and blood sample with you while receiving the blood).  \n\n* BLOOD BANK\n\n  Register your blood bank by contacting admin. Login through your username and password. Keep eye on availability of blood samples. Make sure that expired packets are deleted from time by time. Check the sample given by user. Cross check the receiver through image received on email. Provide receiver with blood.\n\n\n\n    "
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

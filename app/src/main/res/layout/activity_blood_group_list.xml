@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context="com.example.swaraj.bloodbook.BloodGroupList">
+
+    <ExpandableListView
+        android:id="@+id/exp_list1"
+        android:layout_height="420dp"
+        android:layout_width="match_parent"
+        android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft"
+        android:divider="#A4C739"
+        android:dividerHeight="0.5dp"
+        ></ExpandableListView>
+
+    <Button
+        android:id="@+id/summed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorblack"
+        android:text="Usable Units of Blood : "
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textColorLink="@android:color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/totalquant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/summed"
+        android:layout_marginBottom="12dp"
+        android:layout_marginStart="22dp"
+        android:layout_toEndOf="@+id/summed"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textColorLink="@android:color/white" />
+
+</RelativeLayout>

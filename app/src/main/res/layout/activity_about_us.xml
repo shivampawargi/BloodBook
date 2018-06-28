@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context="com.example.swaraj.bloodbook.AboutUS">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="587dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n* DISCLAIMER \n\n This developed application is virtual simulation of real world system. It does not interfere with any of the management activities of the actual blood banks. Expect for the address and contact details, by no other means the application is connected to any authenticated blood bank. \n\n * DEVELOPED BY \n\n\t Swaraj Pawar\n \tKshitij Nirgude\n \tAnuj Mahajan\n \tNidhi Sadany\n\t Shivam Pawargi\n \n * CONTACT US  \n\n+(91)-9763389269,  +(91)-9096933681,  +(91)-8600215473,  +(91)-9260270331,  +(91)-8087033064 \n\n * Email ID :   bloodbook.lifeshare@gmail.com \n\n * WITH THE HELP OF  Android Studio Google Developers  Firebase Firestore \n\n * DESCRIPTION  BloodBook : A LifeShare System is an interface to assist in the management of blood supply chain and ease the control of distribution of blood in various parts of the city based on the hospital demands.   It provides the whole information about blood bank management software.  BloodBook admin module is the interface between donor and receiver to make their communication faster and make sure the correct packet of blood is provided to the correct patient.  Hence the life at threat can be saved by this optimization technique. \n\n\n\n\n\n\n"
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

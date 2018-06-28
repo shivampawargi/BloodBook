@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.swaraj.bloodbook">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/blood_book_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UserActivity" />
+        <activity android:name=".Help" />
+        <activity android:name=".AboutUS" />
+        <activity android:name=".BloodBankLogin" />
+        <activity android:name=".CaptureReceiver" />
+        <activity android:name=".DonorActivity" />
+        <activity android:name=".DonorChangeContact" />
+        <activity android:name=".DonorChangePassword" />
+        <activity android:name=".DonorHistory" />
+        <activity android:name=".DonorLogin" />
+        <activity android:name=".DonorRegister" />
+        <activity android:name=".ReceiverActivity" />
+        <activity android:name=".ReceiverBBDetails" />
+        <activity android:name=".DonorBBDetails" />
+        <activity android:name=".AboutToExpire" />
+        <activity android:name=".AddNewDrive" />
+        <activity android:name=".BloodBankDrives" />
+        <activity android:name=".BloodBankHomeList" />
+        <activity android:name=".BloodGroupList" />
+        <activity android:name=".DonatedSampleDetails" />
+        <activity android:name=".DonorInfo" />
+        <activity android:name=".ExistingDrives" />
+        <activity android:name=".HistoryRequests" />
+        <activity android:name=".ListOfDonors" />
+        <activity android:name=".NotEligibleToDonate" />
+        <activity android:name=".PendingRequests" />
+        <activity android:name=".ProcessRequests" />
+        <activity android:name=".StockList" />
+        <activity android:name=".VerifyDonor" />
+        <activity android:name=".DonorViewDrives"></activity>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        </provider>
+    </application>
+
+</manifest>

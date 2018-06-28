@@ -1,0 +1,104 @@
+{
+  "project_info": {
+    "project_number": "562169501945",
+    "firebase_url": "https://blood-bank-3798e.firebaseio.com",
+    "project_id": "blood-bank-3798e",
+    "storage_bucket": "blood-bank-3798e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562169501945:android:5aa7e24184ba2aa1",
+        "android_client_info": {
+          "package_name": "com.example.swaraj.bloodbank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562169501945-5hjo9io0huga37phnmu6q13btklvak9e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcPn3jmOjjz_tX6BejO6gFuL7bj-PNxn0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562169501945:android:aa38fd8a367b93f8",
+        "android_client_info": {
+          "package_name": "com.example.swaraj.bloodbank2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562169501945-5hjo9io0huga37phnmu6q13btklvak9e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcPn3jmOjjz_tX6BejO6gFuL7bj-PNxn0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562169501945:android:05595b2de4b87dfd",
+        "android_client_info": {
+          "package_name": "com.example.swaraj.bloodbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562169501945-5hjo9io0huga37phnmu6q13btklvak9e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcPn3jmOjjz_tX6BejO6gFuL7bj-PNxn0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
